@@ -1,8 +1,10 @@
 {
   "name": "crwn-clothing",
   "version": "0.1.0",
+  "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
+    "axios": "0.18.0",
     "firebase": "6.0.2",
     "node-sass": "4.12.0",
     "react": "^16.8.6",
