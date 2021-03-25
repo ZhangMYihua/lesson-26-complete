@@ -15,7 +15,6 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => (
     onClick={() => history.push(`${match.url}${linkUrl}`)}
   >
     <BackgroundImageContainer
-      className='background-image'
       imageUrl={imageUrl}
     />
     <ContentContainer className='content'>
